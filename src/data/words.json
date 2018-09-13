@@ -1,0 +1,22 @@
+[
+	{
+		"word":"stack",
+		"color":"green"
+	},
+	{
+		"word":"hack",
+		"color":"yellow"
+	},
+	{
+		"word":"pack",
+		"color":"black"
+	},
+	{
+		"word":"crack",
+		"color":"blue"
+	},
+	{
+		"word":"smack",
+		"color":"red"
+	}
+]
