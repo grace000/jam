@@ -1,6 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'JAMstack Hello World'
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Tiffani Elmore`,
+        short_name: `TiffaniElmore`,
+        start_url: `/`,
+        icon: `src/favicon.png`
+      }
+    },
+  	'gatsby-plugin-react-helmet'
+  ]
 }
